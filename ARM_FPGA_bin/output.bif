@@ -1,7 +1,7 @@
 //arch = zynq; split = false; format = BIN
 the_ROM_image:
 {
-	[bootloader]G:\zynq\EBAZ_Clean\EBAZ_Clean.sdk\fsbl\Debug\fsbl.elf
+	[bootloader]G:\zynq\EBAZ_Clean\ARM_FPGA_bin\fsbl.elf
+	G:\zynq\EBAZ_Clean\ARM_FPGA_bin\design_1_wrapper.bit
 	G:\zynq\EBAZ_Clean\EBAZ_Clean.sdk\helloworld\Debug\helloworld.elf
-	G:\zynq\EBAZ_Clean\bin\design_1_wrapper.bit
 }

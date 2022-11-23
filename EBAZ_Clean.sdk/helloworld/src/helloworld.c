@@ -48,12 +48,14 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "sleep.h"
 
 
 int main()
 {
     init_platform();
 
+    usleep(5000000);
     print("Hello World, EBAZ4203 IS CLEAN NOW! \n\r");
 
     cleanup_platform();
